@@ -26,4 +26,12 @@ console.log(resultado[0]);
 
 let resultado=calcular_hipotenusa(10,20);
 
-console.log(resultado);
+//console.log(resultado);
+function media(){
+    let x = parseInt(document.getElementById('x').value);
+    let y = parseInt(document.getElementById('y').value);
+    let z = parseInt(document.getElementById('z').value);
+    let promedio=(x+y+z)/3;
+    console.log(promedio);
+    return promedio;
+}
